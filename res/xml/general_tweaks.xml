@@ -44,6 +44,12 @@
             android:entries="@array/ringtone_focus_mode_entries"
             android:entryValues="@array/ringtone_focus_mode_values" />
 
+         <ListPreference
+            android:key="flashlight_on_call"
+            android:title="@string/flashlight_on_call_title"
+            android:entries="@array/flashlight_on_call_entries"
+            android:entryValues="@array/flashlight_on_call_values" />
+
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
             android:key="sensor_block"
             android:title="@string/sensor_block_title"
